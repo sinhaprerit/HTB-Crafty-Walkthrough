@@ -230,7 +230,7 @@ Mode                LastWriteTime         Length Name
 -a----        2/13/2024   1:50 AM          59392 nc.exe                                                                
 
 
-PS C:\temp> $secpasswd = ConvertTo-SecureString "s67u84zKq8IXw" -AsPlainText -Force
+PS C:\temp> $secpasswd = ConvertTo-SecureString "<Password>" -AsPlainText -Force
 $secpasswd = ConvertTo-SecureString "s67u84zKq8IXw" -AsPlainText -Force
 PS C:\temp> $mycreds = New-Object System.Management.Automation.PSCredential ("Administrator", $secpasswd)
 $mycreds = New-Object System.Management.Automation.PSCredential ("Administrator", $secpasswd)
